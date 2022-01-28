@@ -16,7 +16,7 @@ class _MovieDetailsPageState extends State<MovieDetailsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.movie.name!),
+        title: Text(widget.movie.name!), backgroundColor: Colors.black,
       ),
     );
   }
